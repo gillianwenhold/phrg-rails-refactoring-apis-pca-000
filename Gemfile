@@ -21,7 +21,7 @@ gem "sdoc", "~> 0.4.0", group: :doc
 # Use Faraday for GET and POST
 gem "faraday"
 # Dot-env
-gem "dotenv-rails"
+gem "dotenv-rails", groups: [:development, :test]
 
 group :test do
   gem "rspec-rails"
